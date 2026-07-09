@@ -24,13 +24,19 @@ on:
       - scala-pipeline-scan
       - scala-policy-scan
       - dart-pipeline-scan
-      - dart-policy-sca
+      - dart-policy-scan
       - java-pipeline-scan
       - java-policy-scan
       - unidentified-lang-pipeline-scan
       - unidentified-lang-policy-scan
       - ruby-pipeline-scan
       - ruby-policy-scan
+      - apex-pipeline-scan
+      - apex-policy-scan
+      - perl-pipeline-scan
+      - perl-policy-scan
+      - vb6-pipeline-scan
+      - vb6-policy-scan
 
 jobs:
   cleanup:
